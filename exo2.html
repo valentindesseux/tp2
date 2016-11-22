@@ -1,40 +1,43 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
    <head>
       <meta charset="UTF-8">
    </head>
-  <body>
-  <form action="http://www.iut-fbleau.fr/sitebp/post.php" method="post" >
-             <label for="nom">Nom :</label>
-         <input type="text" name="nom" id="nom" required> <br/>
-             <label for="prenom">Prénom :</label>
-         <input type="text" name="prenom" id="prenom" required> <br/>
-             <label for="date">Date de naissance :</label>
-         <input type="date" name="date" id="date" required> <br/>
-             <label for="mail">Email :</label>
-         <input type="text" name="email" id="mail" required> <br/>
-             <label for="code">Code postal :</label>
-         <input type="number" name="code" id="code" required> <br/>
-             <label for="tel">Téléphone portable :</label>
-         <input type="text" name="tel" id="tel" required> <br/>
-             <label for="sexe">Sexe :</label>
-         <input type="radio" name="sexe" id="sexe" required>Homme 
-    <input type="radio" name="sexe" id="sexe" required>Femme <br/>
-    <label for="semestre">Semestre :</label>
+   <body>
+      <form action="http://www.iut-fbleau.fr/sitebp/post.php" method="post" >
+         <label for="nom">Nom :</label> 
+         <input type="text" name="nom" id="nom" required> <br/> 
+         <label for="prenom">Prénom :</label> 
+         <input type="text" name="prenom" id="prenom" required> <br/> 
+         <label for="date">Date de naissance :</label> 
+         <input type="date" name="date" id="date" required> <br/> 
+         <label for="mail">Email :</label> 
+         <input type="text" name="email" id="mail" required> <br/> 
+         <label for="code">Code postal :</label> 
+         <input type="number" name="code" id="code" required> <br/> 
+         <label for="tel">Téléphone portable :</label> 
+         <input type="text" name="tel" id="tel" required> <br/> 
+         <label for="sexe">Sexe :</label> 
+         <input type="radio" name="sexe" id="sexe" required>Homme  
+         <input type="radio" name="sexe" id="sexe" required>Femme <br/> 
+         <label for="semestre">Semestre :</label> 
          <select>
-           <option value="S1">S1</option>
-                 <option value="S2">S2</option> 
-           <option value="S3">S3</option>
-                 <option value="S4">S4</option>
-    </select> <br/>
-    <label for="lvl">Niveau en html :</label>
-     <input type="range" name="lvl" id="lvl" required> <br/>
-            
-    
-    </form>
-  
-  
-  
-  </body>
-  
+            <option value="S1">S1</option>
+            <option value="S2">S2</option>
+            <option value="S3">S3</option>
+            <option value="S4">S4</option>
+         </select>
+         <br/> 
+         <label for="lvl">Niveau en html :</label> 
+         <input type="range" name="lvl" id="lvl" min="0" max="10" value="5" step="1" required> <br/> 
+         <label for="message">Message :</label> 
+         <input type="text" name="message" id="message" required> <br/> 
+         <input type="submit" name="Submit" value="Submit" />
+         <input type="reset" name="soumission" value="Reset" />
+      </form>
+   </body>
 </html>
+
+ 
+ 
+
